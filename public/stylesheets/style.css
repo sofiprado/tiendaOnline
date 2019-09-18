@@ -1,0 +1,79 @@
+#main-container {
+  margin: 0 auto;
+  background-color: white;
+  width: 1600px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap; }
+  #main-container #sidebar {
+    height: 1000px;
+    width: 250px;
+    text-align: center;
+    margin-right: 25px;
+    background-color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: #83d4ac;
+    margin-left: 50px; }
+    #main-container #sidebar #userLogin {
+      border: 1px solid lightgrey;
+      border-radius: 2%;
+      padding: 10px;
+      height: 50px;
+      display: flex;
+      flex-wrap: wrap; }
+      #main-container #sidebar #userLogin #instructions {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 13px;
+        margin: 0; }
+      #main-container #sidebar #userLogin button {
+        width: 100px;
+        margin: 5px; }
+  #main-container #products-container {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%; }
+    #main-container #products-container .product {
+      width: 320px;
+      height: 400px;
+      background-color: white;
+      border: 1px solid lightgrey;
+      text-align: center;
+      margin: 5px;
+      border-radius: 2%; }
+      #main-container #products-container .product p {
+        margin: 0;
+        font-family: arial;
+        font-size: 15px; }
+      #main-container #products-container .product img {
+        width: 300px;
+        height: 300px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        border-radius: 2%; }
+
+#user-login {
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 2%;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #user-login #send {
+    margin-top: 20px;
+    border-radius: 2%;
+    width: 100px;
+    height: 30px;
+    background-color: lightgreen; }
+
+/*# sourceMappingURL=style.css.map */
